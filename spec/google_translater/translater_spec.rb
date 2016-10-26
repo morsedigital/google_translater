@@ -8,7 +8,6 @@ describe Translater do
   end
   describe 'translate' do
     it 'should initialize nicely' do
-      skip
       expected = "\xCE\xA7\xCE\xB1\xCE\xAF\xCF\x81\xCE\xB5\xCF\x84\xCE\xB5"
       expect(Translater.translate('hello', 'en', 'el')).to eq expected 
     end

@@ -29,7 +29,7 @@ class Translater # rubocop:disable Metrics/ClassLength
     end
 
     def parsed_google_response
-      google_response.body.gsub(/\[|\]|"/, '').split(',').first
+      google_response.body.gsub(/\[|\]|"/, '').split(',').first.force_encoding('UTF-8')
     end
 
     def recognized?(language)
