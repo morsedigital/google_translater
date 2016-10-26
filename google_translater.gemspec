@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Provides a Ruby object to translate phrases using Google}
   spec.description   = %q{Provides a Ruby object to translate phrases using Google}
-  spec.homepage      = "http://gettothat.later"
+  spec.homepage      = "https://github.com/morsedigital/google_translater"
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
